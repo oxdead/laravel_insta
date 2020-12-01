@@ -97,6 +97,7 @@ node_modules/
 /storage
 storage/*.key
 .env
+
 Homestead.yaml
 Homestead.json
 /.vagrant
