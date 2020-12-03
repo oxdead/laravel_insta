@@ -1,5 +1,5 @@
 # ignore log files and databases
-*.log
+#*.log
 *.sql
 *.sqlite
 
@@ -84,10 +84,7 @@ _old/
 .modman/
 pkginfo
 nohup.out
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+
 
 #Laravel Specific files
 /vendor/
