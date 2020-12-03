@@ -93,8 +93,8 @@ Homestead.json
 /vendor/
 node_modules/
 /public/.htaccess
-/public/storage
-/storage
+#/public/storage
+#/storage
 storage/*.key
 .env
 Homestead.yaml
