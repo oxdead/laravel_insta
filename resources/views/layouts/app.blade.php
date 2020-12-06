@@ -26,7 +26,7 @@
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <!--{{ config('app.name', 'Laravel') }}-->
                     <div><img src="/svg/batmanlogo.svg" style="height: 36px; padding-right: 10px; border-right: 1px solid #333;" alt=""></div> <!-- pr-3 stands for padding left of 3-->
-                    <div class="pl-3 pt-1">Batcamp</div>
+                    <div class="pl-3 pt-1">Dummy Instagram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

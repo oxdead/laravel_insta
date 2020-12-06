@@ -17,10 +17,12 @@ class PostsController extends Controller
 
     public function index()
     {
+        $user = auth()->user(); // not sure is it compaint with REST, added to be able to return to my profile
+        
         $users = auth()->user()->following()->pluck('profiles.user_id');
         //$posts = Post::whereIn('user_id', $users)->latest()->get(); //latest changes order similar to OrderBy('created_at', 'DESC')
         $posts = Post::whereIn('user_id', $users)->latest()->paginate(5); //instead ogf getting and showing all posts, just show last 5
-        return view('posts.index', compact('posts'));
+        return view('posts.index', compact('posts', 'user'));
  
     }
 
