@@ -90,8 +90,7 @@ nohup.out
 /vendor/
 node_modules/
 /public/.htaccess
-#/public/storage
-#/storage
+/public/storage
 storage/*.key
 .env
 Homestead.yaml

@@ -46,6 +46,7 @@ class PostsController extends Controller
             
         //wrap our image with intervention class, then fit into square block
         $image = Image::make(public_path("storage/{$imagePath}"))->fit(1200, 1200); // in pixels max size to which it will be cropped centered and if needed will be resized
+        //$image = Image::make($imagePath->file('image')->getRealPath()); // in pixels max size to which it will be cropped centered and if needed will be resized
         $image->save();
         
         //\App\Models\Post::create($data); // will create an error
