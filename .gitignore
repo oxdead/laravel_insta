@@ -4,23 +4,23 @@
 *.sqlite
 
 # ignore compiled files
-*.com
-*.class
-*.dll
-*.so
-*.exe
-*.o
+#*.com
+#*.class
+#*.dll
+#*.so
+#*.exe
+#*.o
 
 
 # ignore packaged files
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+#*.7z
+#*.dmg
+#*.gz
+#*.iso
+#*.jar
+#*.rar
+#*.tar
+#*.zip
 
 # ignore OS generated files
 ehthumbs.db
